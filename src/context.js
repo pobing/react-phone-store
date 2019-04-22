@@ -23,12 +23,20 @@ class ProductProvider extends Component {
   componentDidMount () {
     this.setProducts();
   }
-
-  handlerDetail = () => {
-    console.log('from detail')
+  
+  getItem = (id) => {
+    const product = this.state.products.find(item => item.id === id);
+    return product;
   }
-  addToCart = () => {
-    console.log('from add to cart')
+
+  handlerDetail = (id) => {
+    const product = this.getItem(id);
+    this.setState(()=> {
+      return {detailProduct: product}
+    })
+  }
+  addToCart = (id) => {
+    console.log(`from add to cart ${id}`)
   }
   render () {
     return (
