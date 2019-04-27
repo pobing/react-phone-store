@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+Visit [Demo](https://react-phone-store-demo.netlify.com/) 
+
 
 ## Available Scripts
 
@@ -67,6 +69,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+### Publish
+
+[netlify](https://www.netlify.com)
+
 ### Reference
-https://www.youtube.com/watch?v=-edmQKcOW8s&t=21617s
-https://github.com/john-smilga/react-phone-e-commerce-project
+* https://www.youtube.com/watch?v=-edmQKcOW8s&t=21617s
+* https://github.com/john-smilga/react-phone-e-commerce-project
